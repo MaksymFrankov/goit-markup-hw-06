@@ -49,6 +49,13 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+.secondary-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--main-text-color);
+}
 /* ----------------------------Header---------------------------- */
 .header {
   display: flex;
@@ -271,13 +278,6 @@ padding-bottom: 94px;
   color: var(--gray);
 }
 /* ----------------------------Scope---------------------------- */
-.secondary-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  color: var(--main-text-color);
-}
 .scope-list {
   display: flex;
   margin-top: 50px;
@@ -311,7 +311,7 @@ padding-bottom: 94px;
   bottom: 4px;
   right: 0;
 }
-/* ----------------Team---------------- */
+/* ----------------------------Team---------------------------- */
 .team {
   background-color: var(--team-bg-color);
   padding-top: 94px;
@@ -319,6 +319,12 @@ padding-bottom: 94px;
 }
 .team-header{
   margin-bottom: 50px;
+}
+.team-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 .team-member-name {
   font-weight: 500;
@@ -335,12 +341,7 @@ padding-bottom: 94px;
   text-align: center;
   color: var(--gray);
 }
-.team-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-  margin-bottom: -30px;
-}
+
 .team-card {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -388,7 +389,7 @@ padding-bottom: 94px;
   color: var(--white);
 }
 
-.team-social-icon {
+.team-social__icon {
   fill: currentColor;
 }
 
