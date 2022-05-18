@@ -163,7 +163,6 @@ color: var(--secondary-color);
   color: var(--gray);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .contacts-list1212121__phone-link:hover,
 .contacts-list1212121__phone-link:focus {
   color: var(--secondary-color);
@@ -173,12 +172,12 @@ color: var(--secondary-color);
   margin-right: 10px;
 }
 /* ----------------------------Main---------------------------- */
-
 .section {
 padding-top: 94px;
 padding-bottom: 94px;
 }
-.hero-section{
+/* ----------------------------Hero---------------------------- */
+.hero{
   background-color: var(--hero-bg-color);
   text-align: center;
   background-image: 
@@ -196,17 +195,15 @@ padding-bottom: 94px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.hero-text {
+.hero__header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white);
-  /* background-color: var(--hero-bg-color); */
 }
-.hero-button {
+.hero__button {
   background: var(--secondary-color);
   font-weight: 700;
   font-size: 16px;
@@ -228,8 +225,8 @@ padding-bottom: 94px;
   border-radius: 4px;
   max-height: 50px;
 }
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--hover-color);
   color: var(--white);
 }
