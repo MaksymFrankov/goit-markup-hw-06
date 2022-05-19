@@ -13,182 +13,184 @@
 
 <body>
     <!-- Header -->
-    <header class="page-header">
-        <div class="container page-nav">
-    
-    
-    
-            <a class="logo" href="index.html"><span class="particle-web">Web</span>Studio</a>
-            <nav class="site-navigaton">
-                <ul class="all-lists-nav">
+    <header class="header">
+        <div class="container site-navigation">
+            <nav class="navigation">
+                <a class="header-logo logo" href="index.html">
+                    <span class="logo__particle-web">Web</span>Studio
+                </a>
+                <ul class="navigation__links-list all-lists">
                     <li class="item"><a class="nav-list" href="./index.html">Студия</a></li>
                     <li class="item"><a class="nav-list accent" href="./portfolio.html">Портфолио</a></li>
                     <li class="item"><a class="nav-list" href="">Контакты</a></li>
                 </ul>
             </nav>
     
-            <ul class="all-lists-contact">
-                <li class="item contact-item">
-                    <a class="contact-list" href="mailto:info@devstudio.com">
-                        <svg class="contact-item-icon" width="16" height="16">
+            <ul class="contacts-list">
+                <li class="item contacts-list__mail">
+                    <a class="contacts-list__mail-link" href="mailto:info@devstudio.com">
+                        <svg class="contacts-list__icon" width="16" height="16">
                             <use href="./images/icons.svg#icon-mail"></use>
                         </svg>
                         info@devstudio.com
                     </a>
                 </li>
-                <li class="item contact-item"><a class="contact-list" href="tel:+380961111111">
-                        <svg class="contact-item-icon" width="16" height="16">
+                <li class="item contacts-list__phone">
+                    <a class="contacts-list__phone-link" href="tel:+380961111111">
+                        <svg class="contacts-list__icon" width="16" height="16">
                             <use href="./images/icons.svg#icon-smartphone"></use>
                         </svg>
-                        +38 096 111 11 11</a></li>
+                        +38 096 111 11 11
+                    </a>
+                </li>
             </ul>
         </div>
     </header>
     <!-- Page navigation -->
     <main>
-        <section class="section">
-            <div class="container">
+        <section class="section ">
+            <div class="container filter">
             <h1 class="hiden-header">Портфолио</h1>
-            <ul class="all-lists  filter-list">
-            <li class="item"><button type="button" class="filter">Все</button>
-            <li class="item"><button type="button" class="filter">Веб-сайты</button>
-            <li class="item"><button type="button" class="filter">Приложения</button>
-            <li class="item"><button type="button" class="filter">Дизайн</button>
-            <li class="item"><button type="button" class="filter">Маркетинг</button>
+        <ul class="all-lists  filter-list">
+             <li class="item"><button type="button" class="filter__button">Все</button>
+             <li class="item"><button type="button" class="filter__button">Веб-сайты</button>
+             <li class="item"><button type="button" class="filter__button">Приложения</button>
+             <li class="item"><button type="button" class="filter__button">Дизайн</button>
+             <li class="item"><button type="button" class="filter__button">Маркетинг</button>
         </ul>
-        <ul class="all-lists work-list">
-            <li class="item">
+        <ul class="all-lists works-list">
+            <li class="item portfolio-card">
                 
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/notebook.jpg" alt="веб сайт Технокряк">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                         Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. 
                         Все это позволит посетителю получить
                         исчерпывающие сведения о компании или частном лице.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Технокряк</h2>
                     <p class="portfolio-card-text">Веб-сайт</p>
                     </div>
                 
                 </a>
             </li>
-            <li class="item">
-                <a class="portfolio-card-link"  href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link"  href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/poster-new-orlean-vs-golden-star.jpg" alt="Постер New Orlean vs Golden Star">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Постер New Orlean vs Golden Star</h2>
                     <p class="portfolio-card-text">Дизайн</p>
                     </div>
                 </a>
 
             </li>
-            <li class="item">
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/restaurant-seafood.jpg" alt="Приложение Seafood">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Ресторан Seafood</h2>
                     <p class="portfolio-card-text">Приложение</p>
                     </div>                
                 </a>
     
             </li>
-            <li class="item">
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/headphones.jpg" alt="Проект Prime">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Проект Prime</h2>
                     <p class="portfolio-card-text">Маркетинг</p>
                     </div>
                 </a>
 
             </li>
-            <li class="item">
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/boxes-pj.jpg" alt="Проект Boxes">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Проект Boxes</h2>
                     <p class="portfolio-card-text">Приложение</p>
                     </div>
                 </a>
 
             </li>
-            <li class="item">
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/apple-mac.jpg" alt="Веб-сайт Inspiration has no Borders">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Inspiration has no Borders</h2>
                     <p class="portfolio-card-text">Веб-сайт</p>
                     </div>
                 </a>
 
             </li>
-            <li class="item">
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/book.jpg" alt="Дизайн издания Limited Edition">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Издание Limited Edition</h2>
                     <p class="portfolio-card-text">Дизайн</p>
                     </div>
                 </a>
 
             </li>
-            <li class="item">
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/label-tag.jpg" alt="Проект LAB">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Проект LAB</h2>
                     <p class="portfolio-card-text">Маркетинг</p>
                     </div>
                 </a>
 
             </li>
-            <li class="item">
-                <a class="portfolio-card-link" href="">
-                    <div class="work-item-wrap">
+            <li class="item portfolio-card">
+                <a class="portfolio-card__link" href="">
+                    <div class="portfolio-itemm-wrap">
                     <img src="./images/working-on-notebook.jpg" alt="Приложение Growing Business">
-                    <p class="work-top-text">
+                    <p class="popup-text">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quam repellat, reprehenderit distinctio, unde aperiam ipsam architecto officia rem libero expedita, iste quasi assumenda rerum esse laboriosam ducimus. Laboriosam, dicta.
                     </p>
                     </div>
-                    <div class="work-about">
+                    <div class="portfolo-about">
                     <h2 class="portfolio-card-header">Growing Business</h2>
                     <p class="portfolio-card-text">Приложение</p>
                     </div>
@@ -201,47 +203,47 @@
     </section>
     </main>
     <footer class="footer">
-        <div class="container footer-all">
-            <div class="footer-first">
-                <a href="index.html" class="logo logo-footer"><span class="particle-web">Web</span>Studio</a>
+        <div class="container footer-box">
+            <div class="footer__contacts">
+                <a href="index.html" class="logo logo__footer"><span class="logo__particle-web">Web</span>Studio</a>
                 <address class="address">
                     <ul class="all-lists">
-                        <li class="footer-item"><a class="adds footer-contact"
+                        <li class="footer__item"><a class="adds footer-contact"
                                 href="https://goo.gl/maps/fxkEnHUCGzXbZ7778">г. Киев, пр-т Леси Украинки, 26 </a></li>
-                        <li class="footer-item"><a class="contact-list footer-contact" href="mailto:info@devstudio.com">
+                        <li class="footer__item"><a class="contact-list footer-contact" href="mailto:info@devstudio.com">
                                 info@devstudio.com</a></li>
-                        <li class="footer-item"><a class="contact-list footer-contact" href="tel:+380961111111">+38 096 111
+                        <li class="footer__item"><a class="contact-list footer-contact" href="tel:+380961111111">+38 096 111
                                 11 11</a></li>
                     </ul>
                 </address>
             </div>
-            <div class="footer-join">
-                <p class="footer-join-title">присоединяйтесь</p>
-                <ul class="footer-social-list all-list">
-                    <li class="footer-social-item">
-                        <a href="" class="footer-social-link">
-                            <svg class="footer-social-icon" width="20" height="20">
+            <div class="footer-invite-form">
+                <p class="footer-invite-form__title">присоединяйтесь</p>
+                <ul class="footer-social-links-list social-links-list all-list">
+                    <li class="footer-social-item-list">
+                        <a href="" class="footer-social-item-list__link">
+                            <svg class="footer-social-item-list__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item">
-                        <a href="" class="footer-social-link">
-                            <svg class="footer-social-icon" width="20" height="20">
+                    <li class="footer-social-item-list">
+                        <a href="" class="footer-social-item-list__link">
+                            <svg class="footer-social-item-list__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item">
-                        <a href="" class="footer-social-link">
-                            <svg class="footer-social-icon" width="20" height="20">
+                    <li class="footer-social-item-list">
+                        <a href="" class="footer-social-item-list__link">
+                            <svg class="footer-social-item-list__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="footer-social-item">
-                        <a href="" class="footer-social-link">
-                            <svg class="footer-social-icon" width="20" height="20">
+                    <li class="footer-social-item-list">
+                        <a href="" class="footer-social-item-list__link">
+                            <svg class="footer-social-item-list__icon" width="20" height="20">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -249,14 +251,14 @@
                 </ul>
             </div>
             <form class="footer-form">
-                <h4 class="footer-form-header">
+                <p class="footer-form-header white-text-uppercase">
                     Подпишитесь на рассылку
-                </h4>
+                </p>
     
                 <label class="footer-label">
                     <input class="footer-input" type="email" name="email" placeholder="E-mail" />
                 </label>
-                <button type="submit" class="footer-button">
+                <button type="submit" class="button footer-button">
                     Подписаться
                     <svg class="footer-button-icon" width="24" height="24">
                         <use href="./images/icons.svg#icon-send"></use>
