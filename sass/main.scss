@@ -1,8 +1,9 @@
 @import './utils/variables';
 @import './base/reset';
 @import './base/container';
+@import './base/section';
 
-@import './components/section-title';
+@import './components/secondary-header';
 @import './components/logo';
 
 @import './utils/hidden';
